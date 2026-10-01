@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Secrets and Credentials (CRITICAL)
+.env
+*.pem
+credentials
+access_key*
+*.csv
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS Metadata
+Thumbs.db
+.DS_Store
